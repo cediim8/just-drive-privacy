@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Just Drive privacy policy</title>
+    <meta
+      name="description"
+      content="How Just Drive, the car logbook app, uses your location and what leaves your phone."
+    />
+    <style>
+      :root {
+        --bg: #f3f5f4;
+        --surface: #ffffff;
+        --text: #13201c;
+        --muted: #4a5853;
+        --brand: #0e6b50;
+        --line: #d5ddd9;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1614;
+          --surface: #18211e;
+          --text: #e8eeeb;
+          --muted: #a7b4af;
+          --brand: #5fc8a2;
+          --line: #2c3833;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 17px/1.6 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 1.3rem;
+        margin: 2rem 0 0.5rem;
+      }
+      .date {
+        color: var(--muted);
+        margin: 0 0 1.5rem;
+      }
+      .card {
+        background: var(--surface);
+        border-radius: 16px;
+        padding: 4px 20px;
+      }
+      a {
+        color: var(--brand);
+      }
+      li {
+        margin: 0.4rem 0;
+      }
+      dl {
+        margin: 0;
+      }
+      dt {
+        font-weight: 700;
+        margin-top: 1rem;
+      }
+      dd {
+        margin: 0.25rem 0 0;
+      }
+      dd + dd {
+        color: var(--muted);
+      }
+      .row {
+        padding: 4px 0 16px;
+        border-bottom: 1px solid var(--line);
+      }
+      .row:last-child {
+        border-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Just Drive privacy policy</h1>
+      <p class="date">Effective 10 October 2026</p>
+
+      <p>
+        Just Drive keeps a car logbook for you while you drive. A logbook is a record of where you
+        went, so this policy says plainly what the app uses, where it's kept, and the few things
+        that leave your phone.
+      </p>
+
+      <h2>The short version</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Just Drive uses your phone's location, <strong>including in the background</strong>, to
+            log your trips automatically.
+          </li>
+          <li>
+            Your trips, odometer photos and logbooks are kept <strong>on your phone</strong>, and in
+            your phone's own backup (iCloud or Google) if you have backup turned on.
+          </li>
+          <li>
+            There's <strong>no account</strong> and <strong>no Just Drive server</strong>. We,
+            Glovebox Labs, never receive your trips, your location or your photos.
+          </li>
+          <li>
+            A few things do leave your phone, all listed below: addresses looked up for your trips,
+            anonymous diagnostics from the odometer reader, and a record of any Logbook Pass you
+            buy.
+          </li>
+          <li>No ads, no tracking across apps, and we don't sell or share your data.</li>
+        </ul>
+      </div>
+
+      <h2>What the app uses on your phone</h2>
+      <div class="card">
+        <dl>
+          <div class="row">
+            <dt>Location, including in the background</dt>
+            <dd>
+              To notice when you start driving, record each trip's route, distance and times, and
+              keep logging when the app is closed. Without it there's no automatic logbook.
+            </dd>
+            <dd>Stays on your phone, except the trip ends sent for an address (see below).</dd>
+          </div>
+          <div class="row">
+            <dt>Physical activity (Android) or Motion &amp; Fitness (iPhone)</dt>
+            <dd>To tell driving from walking and save battery.</dd>
+            <dd>Stays on your phone.</dd>
+          </div>
+          <div class="row">
+            <dt>Camera</dt>
+            <dd>
+              To photograph your odometer as proof of your kilometres. The number is read on your
+              phone.
+            </dd>
+            <dd>Stays on your phone.</dd>
+          </div>
+          <div class="row">
+            <dt>Notifications</dt>
+            <dd>
+              Reminders: trips to sort, the weekly odometer photo, when your 12 weeks are done, and
+              if tracking stops. They're created on your phone.
+            </dd>
+            <dd>Stays on your phone.</dd>
+          </div>
+        </dl>
+      </div>
+      <p>
+        You can turn automatic logging off in Settings. Then location is only used while a trip you
+        started yourself is running.
+      </p>
+
+      <h2>What leaves your phone</h2>
+      <ol>
+        <li>
+          <strong>Addresses for your trips.</strong> When a trip ends, the coordinates of where it
+          started and ended are sent to your phone's built-in map service to look up a street
+          address: Apple on iPhone, Google on Android. Their privacy policies cover that lookup. We
+          don't receive the coordinates or the address.
+        </li>
+        <li>
+          <strong>Diagnostics from the odometer reader.</strong> Reading the odometer uses Google's
+          ML Kit, which works on your phone. ML Kit sends Google anonymous diagnostics: the device
+          model and system version, the app's name and version, an identifier for this installation
+          (not for you), and performance figures such as how long a reading took. It doesn't send
+          your photos, the numbers it reads, your trips or your location. See
+          <a href="https://developers.google.com/ml-kit/android-data-disclosure"
+            >Google's ML Kit data disclosure</a
+          >.
+        </li>
+        <li>
+          <strong>Logbook Pass purchases.</strong> If you buy a Logbook Pass, the App Store or Google
+          Play handles the payment. Our purchases provider,
+          <a href="https://www.revenuecat.com/privacy">RevenueCat</a>, records the purchase against
+          an anonymous ID created by the app (not your name or email) so your pass can be found
+          again. We can see that a pass was bought, not who bought it.
+        </li>
+        <li>
+          <strong>When you send your logbook.</strong> Only when you tap "Send to my accountant" or
+          "Save PDF", the PDF and spreadsheet go where you choose: your email app, Files, or another
+          app. After that, the person or app you sent them to looks after them.
+        </li>
+      </ol>
+
+      <h2>What we don't do</h2>
+      <ul>
+        <li>No account, sign-in or email address needed.</li>
+        <li>
+          No advertising, no analytics of our own, and no tracking you across other apps or
+          websites.
+        </li>
+        <li>We don't sell, rent or share your data.</li>
+      </ul>
+
+      <h2>Keeping and deleting your data</h2>
+      <p>
+        Your logbook stays on your phone until you delete it. Deleting the app deletes everything on
+        the phone; copies in your iCloud or Google backup are deleted through your phone's backup
+        settings. To have a Logbook Pass purchase record removed from RevenueCat, email us (below).
+      </p>
+
+      <h2>Children</h2>
+      <p>Just Drive is for drivers keeping a tax logbook and isn't directed at children.</p>
+
+      <h2>Changes</h2>
+      <p>
+        If this policy changes, we'll update this page and the date at the top. If a change means
+        more data leaves your phone, the app will tell you first.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Just Drive is made by Glovebox Labs. Questions, or a request to delete a purchase record:
+        <a href="mailto:glovebox.labs@gmail.com">glovebox.labs@gmail.com</a>.
+      </p>
+    </main>
+  </body>
+</html>
